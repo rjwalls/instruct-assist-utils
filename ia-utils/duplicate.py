@@ -23,7 +23,6 @@ def main():
     logging.basicConfig(level=args.loglevel)
 
     #read in the csv containing the team assignments: 'username','teamnumber'
-
     #assign the appropriate pdf to each student. one pdf per student named after the students username.
     #pdfs taken from a given input directory with filename: 'XXXX.pdf' where XXXX is the teamnumber
     #student pdfs put in the same directory.
